@@ -3,6 +3,7 @@ if ('serviceWorker' in navigator) {
              .register('./service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
+/*
   var app1 = (function() {
   'use strict';
 
@@ -17,9 +18,6 @@ if ('serviceWorker' in navigator) {
     return;
   }
 
- /* Notification.requestPermission(function(status) {
-    console.log('Notification permission status:', status);
-  });*/
 
   function displayNotification() {
     if (Notification.permission == 'granted') {
@@ -192,3 +190,4 @@ if ('serviceWorker' in navigator) {
   }
 
 })();
+*/
