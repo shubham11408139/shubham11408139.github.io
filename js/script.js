@@ -3,7 +3,7 @@ if ('serviceWorker' in navigator) {
              .register('./service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
-/*
+
   var app1 = (function() {
   'use strict';
 
@@ -190,4 +190,4 @@ if ('serviceWorker' in navigator) {
   }
 
 })();
-*/
+
