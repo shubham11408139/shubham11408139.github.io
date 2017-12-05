@@ -145,7 +145,7 @@ self.addEventListener('fetch', function(e) {
 });
 */
 
-
+/*
 self.addEventListener('notificationclick',function(e) {
   var notification = e.notification;
   var primaryKey = notification.data.primaryKey;
@@ -159,9 +159,11 @@ self.addEventListener('notificationclick',function(e) {
 
   //console.log("Notification Clicked right now "+a);
 });
-
+*/
+/*
 self.addEventListener('notificationclose',function(e) {
   var n = e.notification;
   var p = n.data.primaryKey;
   console.log('Lovely Notification Closed '+p);
 });
+*/
