@@ -58,3 +58,22 @@ self.addEventListener('fetch', function(e) {
     })
   );
 });
+self.addEventListener('notificationclick',function(e) {
+  var notification = e.notification;
+  var primaryKey = notification.data.primaryKey;
+  var a = e.action;
+  if(a === 'close'){
+	  notification.close();
+  }else{
+	  clients.openWindow('https://www.google.com');
+	  notification.close();
+  }
+
+  //console.log("Notification Clicked right now "+a);
+});
+
+self.addEventListener('notificationclose',function(e) {
+  var n = e.notification;
+  var p = n.data.primaryKey;
+  console.log('Lovely Notification Closed '+p);
+});
