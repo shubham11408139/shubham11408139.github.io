@@ -1,0 +1,422 @@
+
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+  background-image:url("../image/LPU-medical-courses-2.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  
+}
+
+#wrap {
+  margin: 0 auto 30px;
+  
+}
+
+#regbar {
+  height: 70px;
+  background: #34495e;
+}
+
+#navthing {
+margin-left: 50px;
+}
+
+h2 {
+  padding: 20px;
+  color: #ecf0f1;
+}
+
+fieldset {
+border: none;
+}
+
+.login {
+  position: relative;
+  width: 350px;
+  display: none;
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-bottom: 15px solid #ECF0F1;
+  left: 10%;
+  position: absolute;
+  top: -10px;
+}
+
+.btn
+{
+border:none;
+padding:14px 28px;
+cursor:pointer;
+font-size: 20px;
+border-radius: 5px;
+display: block;
+ width: 100%;
+ padding: 10px;
+ color: #fff;
+ 
+}
+
+.js-push-btn{
+background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 6px;
+    cursor: pointer;
+	float:right;
+}
+.js-push-btn:hover{
+	background-color:#1bc6a4;
+}
+.js-notify-btn{
+	background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 6px;
+    cursor: pointer;
+	float:right;
+}
+.js-notify-btn:hover{
+	background-color:#1bc6a4;
+}
+.success
+{
+background-color:#4CAF50;
+}
+.success:hover{
+background-color:#1bc6a4
+}
+.register
+{
+background-color:#4CAF50;
+}
+.register:hover{
+background-color:#1bc6a4
+}
+  
+.formholder {
+  background: #ecf0f1;
+  width: 350px;
+  border-radius: 5px;
+  padding-top: 5px;
+  fieldset {
+
+  }
+}
+.email{
+	padding: 7px 5px;
+    margin: 10px 0;
+    width: 96%;
+    display: block;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+	
+}
+.name
+{
+background-color:white;
+}
+.name:hover{
+background-color:#696969
+}
+
+.pass
+{
+background-color:white;
+}
+.pass:hover{
+background-color:#696969;
+}
+  
+  
+  
+
+.randompad {
+padding: 10px;
+}
+
+.green {
+  color: #1abc9c;
+}
+
+a {
+  color: #ecf0f1;
+  text-decoration: none;
+  
+  &:hover {
+      color: #1abc9c;
+    }
+}
+
+@media all and (max-width:768px){
+	
+
+.container a {
+    float: left;
+    font-size: 8px;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 8px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 8px;
+    background-color: inherit;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+#wrap {
+  margin: 0 auto 15px;
+  
+}
+
+#regbar {
+  height: 35px;
+  background: #34495e;
+}
+
+#navthing {
+margin-left: 25px;
+}
+
+h2 {
+  padding: 10px;
+  color: #ecf0f1;
+    font-size: 1em;
+}
+
+fieldset {
+border: none;
+}
+
+.login {
+  position: relative;
+  width: 175px;
+    font-size: 1em;
+  display: none;
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	
+	border-bottom: 8px solid #ECF0F1;
+  left: 5%;
+  position: absolute;
+  top: -5px;
+}
+
+.btn
+{
+border:none;
+padding:7px 14px;
+cursor:pointer;
+font-size: 10px;
+border-radius: 2px;
+display: block;
+ width: 50%;
+ padding: 5px;
+ color: #fff;
+ 
+}
+
+.js-push-btn{
+background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 3px;
+    cursor: pointer;
+	float:right;
+}
+.js-push-btn:hover{
+	background-color:#1bc6a4;
+}
+.js-notify-btn{
+	background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 3px;
+    cursor: pointer;
+	float:right;
+}
+  
+.formholder {
+  background: #ecf0f1;
+  width: 175px;
+  border-radius: 3px;
+  padding-top: 3px;
+  fieldset {
+
+  }
+}
+.email{
+	padding: 4px 3px;
+    margin: 5px 0;
+    width: 96%;
+    display: block;
+    font-size: 9px;
+    border-radius: 5px;
+    border: none;
+	
+}
+
+. 
+  
+  
+
+.randompad {
+padding: 5px;
+}
+
+.green {
+  color: #1abc9c;
+}
+
+a {
+  color: #ecf0f1;
+  text-decoration: none;
+  
+  &:hover {
+      color: #1abc9c;
+    }
+}
+}
+
+
+
+
+

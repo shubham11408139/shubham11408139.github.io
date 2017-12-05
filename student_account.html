@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#EB3C17"/>
+<meta name ="viewport" content ="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content ="ie=edge">
+<title> STUDENT ACCOUNT </title>
+<link rel="stylesheet" href="css/student_acc.css">
+<link  rel="manifest" href="manifest.json">
+<SCRIPT language=JavaScript type=text/JavaScript>
+</SCRIPT>
+</head>
+<body>
+
+<button type="button" onclick="window.location.href='index.html'" style="float: right"class="logout log">Log out</button>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="image\14954343986.jpg" height="300" width="1000">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="image\LPU-medical-courses-2.jpg" height="300" width="1000">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="image\149543429616.jpg" height="300" width="1000">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<div id ="wrap">
+<div id="regbar">
+<div id="navthing">
+
+<h2>Create an Student Account</h2>
+<form>
+<fieldset class ="feedback form">
+<table>
+<tr>
+   <td align="right">Student Full name:</td>
+   <td align="left"><input type="text" name="fullname" placeholder="Shubham gupta"></td>
+  </tr>
+
+  <tr>
+ <td align="right"> Registration Id:</td>
+  <td align="left"><input type="number" name="Regno" placeholder="11408139"></td>
+  </tr>
+  <tr>
+  <td align="right">Departments:</td>
+   <td align="left"><select name="departments">
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="ME">ME</option>
+    <option value="CIVIL">CIVIL</option>
+  </select></td>
+  </tr>
+  <tr>
+ <td align="right"> Emailid:</td>
+  <td align="left"><input type="email" name="email"  autocomplete="on"></td>
+  </tr>
+  <tr>
+  <td align="right">Password:</td>
+  <td align="left"><input type="password" name="pass" ></td>
+  </tr>
+   <tr>
+   <td align="right">Mobileno:</td>
+  <td align="left"><input type="tel" name="usrtel" placeholder="9058815957"></td>
+  </tr>
+   <tr>
+   <td align="right">Gender:</td><br>
+  <td align="left"><input type="radio" name="gender" value="male" checked> Male</td>
+  <td align="left"><input type="radio" name="gender" value="female"> Female</td>
+ <td align="left"><input type="radio" name="gender" value="other"> Other</td>
+ </tr>
+ <td align="right"> <input type="submit" value="Submit" class ="btn success">
+</table>
+  </fieldset>
+</form>
+
+</body>
+</html>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/index.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
+<script src="js/student_acc.js"></script>

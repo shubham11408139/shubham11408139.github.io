@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#EB3C17"/>
+<meta name ="viewport" content ="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content ="ie=edge">
+  <meta name="msapplication-TileImage" content="image/icons/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+<title>UI LOGIN </title>
+<link rel="stylesheet" href="css/style.css">
+<link  rel="manifest" href="/manifest.json">
+
+<SCRIPT language=JavaScript type=text/JavaScript></SCRIPT>
+
+</head>
+<body>
+  <button disabled class="js-push-btn">Enable Push Messaging</button>
+  <button class="js-notify-btn">Notify me!</button>
+ 
+  <section class="js-sub-endpoint" style="display:none;width:80%">
+    <h3>Subscription Object:</h3>
+    <code class="js-subscription-json"></code><br><br><br>
+    <h3>Endpoint URL:</h3>
+    <code class="js-endpoint-url"></code>
+  </section>
+
+<div id ="wrap">
+<div id="regbar">
+<div id="navthing">
+<h2><a href="#" id="loginform">Login</a></h2>
+
+
+
+<div class="login">
+<div class="arrow-up"></div>
+<div class="formholder">
+<div class="randompad">
+<form action="Home23.html">
+<fieldset>
+
+
+<label name="email">Email</label>
+<input type="text" value="example@example.com" class ="email name"/><br>
+
+
+<label name="password">Password</label>
+<input type="password" class ="email pass "/><br>
+
+<input type="submit" value="Login" class ="btn success" />&nbsp&nbsp&nbsp
+
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/index.js"></script>
+<script src="js/script.js"></script>
+    
+    
+
+<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC88WRK7DLNw8IHjxrzyaxWGjrnQzCARfc",
+    authDomain: "progressive-9a389.firebaseapp.com",
+    databaseURL: "https://progressive-9a389.firebaseio.com",
+    projectId: "progressive-9a389",
+    storageBucket: "",
+    messagingSenderId: "691595570250"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+</html>

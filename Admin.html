@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#EB3C17"/>
+<meta name ="viewport" content ="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content ="ie=edge">
+<title> FEEDBACK FORM </title>
+<link rel="stylesheet" href="css/Admin.css">
+<link  rel="manifest" href="manifest.json">
+<SCRIPT language=JavaScript type=text/JavaScript>
+</SCRIPT>
+</head>
+<body style="background: #F6F3EC">
+<div class="feedback">
+<div id ="wrap">
+<div id="regbar">
+<div id="navthing">
+<div class="record">
+<button type="button" onclick="window.location.href='index.html'" style="float: right"class="logout log">Log out</button>
+<h2>Admin Panel</h2>
+
+<center>
+<form>
+<fieldset class ="feedback form">
+<h3 class="record r1"><u>Edit Record</u></h3>
+
+<table>
+
+  <tr>
+   <td align="right">Faculty Full name::</td>
+   <td align="left"><input type="text" name="fullname" placeholder="Shubham gupta"></td>
+  </tr>
+  <tr>
+ <td align="right"> Faculty Id:</td>
+  <td align="left"><input type="number" name="facid" placeholder="11408139"></td> 
+  <td align="left">  <input type="submit" value="Search Record"class ="btn success">
+ </tr>
+<tr>
+  <td align="right">Departments:</td>
+   <td align="left"><select name="Departments:">
+    <option value="CIVIL">CIVIL</option>
+    <option value="ME">ME</option>
+    <option value="CSE">CSE</option>
+	<option value="BIOTECH">BIO TECH</option>
+	<option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+  </select></td>
+  </tr>
+  <tr>
+   <td align="right">HOD:</td><br>
+  <td align="left"><input type="radio" name="hod" value="yes" checked> YES</td>
+  <td align="left"><input type="radio" name="hod" value="no">NO</td>
+  </tr>
+  <tr>
+ <td align="right"> Designation:</td>
+  <td align="left"><input type="text" name="designation"></td>
+  </tr>
+  <tr>
+ <td align="right"> Qualification:</td>
+  <td align="left"><input type="text" name="qualification"></td>
+  </tr>
+  <tr>
+ <td align="right"> Experience:</td>
+  <td align="left"><input type="number" name="experience"></td>
+  </tr>
+  <tr>
+ <td align="right"> Area of Intrest:</td>
+  <td align="left"><input type="text" name="areaofintrest"></td>
+  </tr>
+  
+  <tr>
+ <td align="right"> Field Of Reasearch:</td>
+  <td align="left"><input type="text" name="fieldofresearch"></td>
+  </tr>
+  <tr>
+ <td align="right"> Email:</td>
+  <td align="left"><input type="email" name="email"></td>
+  </tr>
+   <tr>
+   <td align="right">Mobileno:</td>
+  <td align="left"><input type="tel" name="usrtel" placeholder="9058815957"></td>
+  </tr>
+   <tr>
+   <td align="right">Gender:</td><br>
+  <td align="left"><input type="radio" name="gender" value="male" checked> Male</td>
+  <td align="left"><input type="radio" name="gender" value="female"> Female</td>
+  <td align="left"><input type="radio" name="gender" value="other"> Other</td>
+  </tr>
+ <tr>
+  <td align="right"><input type="submit" value="Insert Record"class ="btn success"></td>
+ <td align="left"><input type="submit" value="Delete Record"class ="btn success"></td>
+<td align="right"><input type="submit" value="Update Record"class ="btn success"></td>
+<td align="right"><input type="submit" value="Display Record"class ="btn success"></td>
+ </tr>
+ </table>
+ 
+</fieldset>
+</form>
+<script src="js/script.js"></script>
+</body>
+</html>
